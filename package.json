@@ -1,0 +1,19 @@
+{
+  "name": "libertyinstitution",
+  "version": "1.0.0",
+  "description": "Liberty Institution NJ",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahisaurus-Rex/Login-System.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mahisaurus-Rex/Login-System/issues"
+  },
+  "homepage": "https://github.com/Mahisaurus-Rex/Login-System#readme"
+}
