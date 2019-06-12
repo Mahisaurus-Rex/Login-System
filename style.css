@@ -15,6 +15,7 @@ body{
     width: 35%;
     min-height: 700px;
     margin-left: 32%;
+    opacity: 0.8;
 }
 @media (max-width: 1000px) {
     .form{
