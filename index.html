@@ -15,13 +15,21 @@
 <main class="site-wrapper">
     <div class="content content--fixed">
 <div class="form">
-    <form action="handler.php" method="post">
+    <form action="login.php" method="post">
+        <label>
+            Username
+        </label>
+        <br>
+        <label>
+        <input type="text" placeholder="sample@sample.com" name="username" required />
+        </label>
+        <br><br>
         <label>
             Email Address
         </label>
         <br>
         <label>
-            <input type="email" placeholder="sample@sample.com" required />
+            <input type="email" placeholder="sample@sample.com" name="email" required />
         </label>
         <br><br>
 
@@ -30,7 +38,7 @@
         </label>
         <br>
 
-            <input type="password" placeholder="********" required />
+            <input type="password" placeholder="********" name="password" required />
 
         <br><br>
 
