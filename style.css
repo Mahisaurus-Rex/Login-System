@@ -1,25 +1,32 @@
-body{
-    margin: 0;
-    background: url("images/background.jpg") no-repeat center;
-
-}
-.background{
-
-    background-size: auto;
-    min-height: 100%;
-    width: 100%;
-    height: auto;
-}
 .form{
+
     background: black;
-    width: 35%;
-    min-height: 700px;
-    margin-left: 32%;
-    opacity: 0.8;
+
+    width: 75%;
+    margin-left: 10%;
+    opacity: 0.6;
+    margin-top: 5%;
+    height: 80%;
 }
-@media (max-width: 1000px) {
-    .form{
-        width: 55%;
-        margin-left: 22%;
-    }
+.form label{
+    margin-left: 20%;
 }
+.form  textarea{
+}
+    @media (min-width: 700px) /*Middle*/ {
+
+        .form{
+        width: 45%;
+        margin-left: 27%;
+            margin-top: 5%;
+            height: 70%;
+        }
+    @media (min-width: 881px) /*Maximum screen*/{
+
+        .form{
+            width: 75%;
+            margin-left: 60%;
+            margin-top: 35%;
+            height: 150%;
+        }
+}}
